@@ -15,9 +15,7 @@
     height: 105px;
     flex-shrink: 0;
     display: flex;
-    margin: auto;
-    align-self: center;
-    justify-self: center; 
+    justify-self: center;
 }
 
 .header__logo-image {
@@ -31,7 +29,6 @@
     padding-left: 0;
     display: flex;
     flex-direction: initial;
-    display: flex;
     gap: 32px;
     list-style-type: circle;
 }
@@ -43,7 +40,7 @@
     line-height: normal;
     text-underline-position: under;
     text-decoration-thickness: 1px;
-    white-space: Nowrap; 
+    white-space: nowrap;
 }
 
 .header_menu-item_active .header__menu-link {
@@ -93,7 +90,7 @@ flex-direction: column;
 
 /*---------title----------*/
 .cover_title {
-    color: #FFF; 
+    color: #FFF;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -195,7 +192,7 @@ flex-direction: column;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     padding-left: 40px;
     padding-bottom: 27px;
 }
@@ -264,7 +261,8 @@ flex-direction: column;
     padding-left: 40px;
     padding-top: 50px;
     padding-right: 40px;
-    text-decoration-line: underline;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 
 .card__text {
@@ -392,7 +390,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     width: 240px;
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 .footer__social-link {
