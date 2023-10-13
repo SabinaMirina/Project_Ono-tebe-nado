@@ -260,6 +260,7 @@ flex-direction: column;
     line-height: 120%;
     text-transform: uppercase;
     z-index: 2;
+    text-decoration: underline;
     word-spacing: -0.9px;
     letter-spacing: -1;
 }
