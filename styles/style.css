@@ -272,7 +272,6 @@ flex-direction: column;
     line-height: 120%; /* 24px */
     z-index: 2;
     padding-bottom: 50px;
-    white-space: pre-line;
 }
 
 .card_text_accent-span {
