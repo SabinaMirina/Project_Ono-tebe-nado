@@ -260,9 +260,10 @@ flex-direction: column;
     z-index: 2;
     padding-top: 50px;
     padding-left: 40px;
-    max-width: 350px;
+    padding-right: 40px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
+    white-space: pre-line;
 }
 
 .card__text {
@@ -273,7 +274,8 @@ flex-direction: column;
     z-index: 2;
     padding-bottom: 50px;
     padding-left: 40px;
-    max-width: 350px;
+    padding-right: 40px;
+    white-space: pre-line;
 }
 
 .lots__look-more-link {
