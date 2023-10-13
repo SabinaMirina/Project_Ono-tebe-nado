@@ -249,7 +249,8 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    white-space: pre-wrap;
+    white-space: pre-line;
+    padding: 50px 40px 50px 40px;
 }
 
 .card__title {
@@ -259,10 +260,7 @@ flex-direction: column;
     line-height: 120%;
     text-transform: uppercase;
     z-index: 2;
-    padding-top: 50px;
     text-decoration: underline;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .card__text {
@@ -271,9 +269,6 @@ flex-direction: column;
     font-weight: 400;
     line-height: 120%; /* 24px */
     z-index: 2;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .lots__look-more-link {
