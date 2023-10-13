@@ -251,6 +251,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 40px 50px 40px;
+    justify-content: baseline;
 }
 
 .card__title {
