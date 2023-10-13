@@ -262,6 +262,7 @@ flex-direction: column;
     z-index: 2;
     text-decoration: underline;
     word-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .card__text {
