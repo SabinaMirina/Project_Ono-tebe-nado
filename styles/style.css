@@ -251,6 +251,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 40px 50px 40px;
+    white-space: pre-wrap;
 }
 
 .card__title {
@@ -261,7 +262,6 @@ flex-direction: column;
     text-transform: uppercase;
     z-index: 2;
     text-decoration: underline;
-    
 }
 
 .card__text {
