@@ -254,7 +254,6 @@ flex-direction: column;
 }
 
 .card__title {
-    display: inline-block;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -262,10 +261,10 @@ flex-direction: column;
     text-transform: uppercase;
     z-index: 2;
     text-decoration: underline;
+    
 }
 
 .card__text {
-    display: inline-block;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
