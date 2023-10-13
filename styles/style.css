@@ -241,6 +241,7 @@ flex-direction: column;
 .card-link {
     text-decoration: none;
     display: block;
+    height: 100%;
 }
 
 .card {
@@ -249,7 +250,6 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    white-space: pre-line;
     padding: 50px 40px 50px 40px;
 }
 
